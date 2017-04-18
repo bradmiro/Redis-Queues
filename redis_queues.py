@@ -20,7 +20,7 @@ Available classes:
 - RedisSetQueue: A class that acts as an interface to a redis set object.
 - RetryQueue: A class that manages timestamp-keyed redis list objects and a
     single redis set object.
-- Queues: A registry for all Redis Objects. Acts as a singleton with the b
+- Queues: A registry for all Redis Objects.
 
 Available methods:
 - get_queues: Returns a reference to the Queues object. It returns a global
